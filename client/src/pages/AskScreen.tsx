@@ -180,7 +180,7 @@ export const AskScreen: React.FC = () => {
 
         await speak(fullSpokenText, replyLang, data.audioBase64);
       }
-    } catch (_err) {
+    } catch {
       setIsLoading(false);
       const replyLang: LanguageCode = currentLanguage === 'none' ? 'en' : currentLanguage;
       const fallbackText = `${t('drawer_helper')}. ${t('drawer_helpline')}: 1800 266 6696.`;
@@ -253,7 +253,7 @@ export const AskScreen: React.FC = () => {
         ? `${data.answerText} ${data.suggestedFollowUp}`
         : data.answerText;
       speak(fullSpoken, replyLang, data.audioBase64);
-    } catch (_err) {
+    } catch {
       setIsLoading(false);
     }
   };

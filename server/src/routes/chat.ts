@@ -35,7 +35,7 @@ chatRouter.post('/', async (req: Request, res: Response) => {
       switched: result.switched,
       fallback: result.fallback || tts.fallback,
     });
-  } catch (_err: any) {
+  } catch {
     return res.status(500).json({
       error: 'Failed to process chat request.',
       fallback: true,

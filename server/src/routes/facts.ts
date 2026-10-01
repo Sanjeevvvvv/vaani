@@ -7,7 +7,7 @@ factsRouter.get('/', (_req: Request, res: Response) => {
   try {
     const facts = getScheme('ujjwala');
     return res.json(facts);
-  } catch (_err: any) {
+  } catch {
     return res.status(500).json({ error: 'Could not load official fact sheet.' });
   }
 });

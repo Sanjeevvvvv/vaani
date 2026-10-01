@@ -7,7 +7,7 @@ schemesRouter.get('/', (_req: Request, res: Response) => {
   try {
     const list = listSchemes();
     return res.json(list);
-  } catch (_err) {
+  } catch {
     return res.status(500).json({ error: 'Failed to load schemes list' });
   }
 });
@@ -20,7 +20,7 @@ schemesRouter.get('/:id', (req: Request, res: Response) => {
       return res.status(404).json({ error: `Scheme '${schemeId}' not found.` });
     }
     return res.json(scheme);
-  } catch (_err) {
+  } catch {
     return res.status(500).json({ error: 'Failed to retrieve scheme' });
   }
 });

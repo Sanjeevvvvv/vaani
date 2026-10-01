@@ -19,7 +19,7 @@ function getTTSClient(): TextToSpeechClient | null {
   try {
     ttsClient = new TextToSpeechClient();
     return ttsClient;
-  } catch (_err) {
+  } catch {
     return null;
   }
 }
@@ -88,7 +88,7 @@ export async function synthesizeSpeech(text: string, language = 'en'): Promise<T
     }
 
     return { audioBase64: null, mimeType: 'audio/mp3', fallback: true };
-  } catch (_err) {
+  } catch {
     return { audioBase64: null, mimeType: 'audio/mp3', fallback: true };
   }
 }

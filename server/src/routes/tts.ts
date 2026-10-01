@@ -17,7 +17,7 @@ ttsRouter.post('/', async (req: Request, res: Response) => {
       fallback: tts.fallback,
       cached: tts.cached,
     });
-  } catch (_err: any) {
+  } catch {
     return res.status(500).json({
       audio: null,
       fallback: true,

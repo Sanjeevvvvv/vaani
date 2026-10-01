@@ -60,7 +60,7 @@ voiceRouter.post('/', async (req: Request, res: Response) => {
         voiceUsed: voiceDetails.name,
       },
     });
-  } catch (_err: any) {
+  } catch {
     return res.status(500).json({
       error: 'Failed to process voice request.',
       fallback: true,
