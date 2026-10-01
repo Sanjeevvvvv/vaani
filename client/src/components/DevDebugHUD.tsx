@@ -19,11 +19,8 @@ interface DevDebugHUDProps {
 export const DevDebugHUD: React.FC<DevDebugHUDProps> = ({ debugInfo }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Only render in dev mode or localhost
-  const isDev =
-    process.env.NODE_ENV !== 'production' ||
-    (typeof window !== 'undefined' &&
-      (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'));
+  // Only render in dev mode (OFF in production builds)
+  const isDev = Boolean(import.meta.env.DEV);
 
   if (!isDev || !debugInfo) return null;
 

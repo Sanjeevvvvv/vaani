@@ -7,7 +7,7 @@ import axe from 'axe-core';
 
 // Mock fetch for voice & chat API
 const mockFetch = vi.fn();
-global.fetch = mockFetch;
+globalThis.fetch = mockFetch;
 
 const renderAskScreen = () => {
   return render(
