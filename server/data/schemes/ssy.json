@@ -1,0 +1,57 @@
+{
+  "scheme_id": "ssy",
+  "name": "Sukanya Samriddhi Yojana (SSY / Beti Bachao Beti Padhao)",
+  "tagline": "Beti Bachao, Beti Padhao",
+  "ministry": "Ministry of Finance / Department of Posts, Government of India",
+  "description": "Sukanya Samriddhi Account is a government-backed small savings scheme designed specifically for the financial security and higher education of the girl child, offering high sovereign interest rates and EEE tax exemption.",
+  "official_url": "https://www.indiapost.gov.in/Financial/pages/content/ssy.aspx",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssy",
+  "last_checked": "2026-03-30",
+  "verify": false,
+  "benefits": [
+    "High government-guaranteed interest rate (compounded annually)",
+    "Minimum annual deposit is only Rs. 250 (up to Rs. 1,50,000 per financial year)",
+    "Deposits can be made for 15 years from account opening date",
+    "Triple tax benefits (EEE: exempt deposit, exempt interest, exempt maturity under Section 80C)",
+    "Partial withdrawal up to 50% allowed for girl child's higher education after she attains 18 years"
+  ],
+  "eligibility": [
+    "Account can be opened by the natural or legal guardian in the name of a girl child",
+    "Girl child must be an Indian citizen from birth up to 10 years of age",
+    "Maximum of 2 accounts per family (one per girl child; 3 allowed in case of twin/triplet girls born in first or second order of birth)"
+  ],
+  "documents": [
+    "Birth Certificate of the girl child issued by municipal authority or registrar",
+    "Identity proof of guardian (Aadhaar Card, Voter ID, Passport, or Driving License)",
+    "Address proof of guardian (Aadhaar Card, utility bill, or ration card)",
+    "PAN Card or Form 60 of the guardian",
+    "Passport-size photographs of the girl child and guardian"
+  ],
+  "steps": [
+    "Visit your nearest Post Office branch or authorized commercial bank (SBI, PNB, BoB, etc.)",
+    "Collect and fill the Sukanya Samriddhi Account Opening Form (Form-1)",
+    "Attach photocopies of the girl child's birth certificate and guardian's KYC documents",
+    "Deposit the opening amount (minimum Rs. 250 in cash, cheque, or demand draft)",
+    "Collect your official SSY Passbook with account number, guardian name, and child details"
+  ],
+  "helpline": {
+    "primary": "1800-266-6868",
+    "secondary": "1905",
+    "hours": "9:00 AM - 6:00 PM (Monday to Saturday)"
+  },
+  "human_helpers": [
+    "Postmaster or Postal Assistant at your local Post Office",
+    "Customer service desk at any authorized public/private commercial bank branch",
+    "Gram Dak Sevak (GDS) in rural areas"
+  ],
+  "suggested_followups": {
+    "te": "పోస్ట్ ఆఫీస్‌లో ఖాతా ఎలా తెరవాలో చెప్పమంటారా? బటన్ పట్టుకుని అవును అని చెప్పండి.",
+    "hi": "क्या मैं बताऊँ कि डाकघर में खाता कैसे खुलवाएं? बटन दबाकर हाँ बोलें.",
+    "ta": "தபால் நிலையத்தில் கணக்கு தொடங்குவது எப்படி என்று சொல்லட்டுமா? பொத்தானை அழுத்தி ஆம் என்று சொல்லுங்கள்.",
+    "kn": "ಅಂಚೆ ಕಚೇರಿಯಲ್ಲಿ ಖಾತೆ ತೆರೆಯುವುದು ಹೇಗೆ ಎಂದು ಹೇಳಲೇ? ಬಟನ್ ಒತ್ತಿ ಹೌದು ಎಂದು ಹೇಳಿ.",
+    "ml": "പോസ്റ്റ് ഓഫീസിൽ അക്കൗണ്ട് എങ്ങനെ തുടങ്ങാമെന്ന് പറയണോ? ബട്ടൺ അമർത്തി അതെ എന്ന് പറയൂ.",
+    "bn": "পোস্ট অফিসে অ্যাকাউন্ট কিভাবে খুলবেন বলব? বোতাম চেপে হ্যাঁ বলুন।",
+    "mr": "पोस्ट ऑफिसमध्ये खाते कसे उघडायचे ते सांगू का? बटण दाबून हो म्हणा.",
+    "en": "Shall I tell you how to open the account at the post office? Hold and say yes."
+  }
+}

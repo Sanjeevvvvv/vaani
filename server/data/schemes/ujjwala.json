@@ -1,0 +1,57 @@
+{
+  "scheme_id": "ujjwala",
+  "name": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)",
+  "tagline": "Swachh Indhan, Behtar Jeevan",
+  "ministry": "Ministry of Petroleum and Natural Gas, Government of India",
+  "description": "PM Ujjwala Yojana 2.0 provides deposit-free LPG gas connections to adult women from poor and underprivileged households across India. The scheme provides a deposit waiver, a free first LPG cylinder refill, and a free two-burner gas stove (hotplate). No application fee or middleman fee is required.",
+  "official_url": "https://www.pmuy.gov.in",
+  "source_url": "https://www.pmuy.gov.in/ujjwala2.html",
+  "last_checked": "2026-03-30",
+  "verify": false,
+  "benefits": [
+    "Deposit-free LPG cylinder and pressure regulator connection",
+    "First LPG gas refill completely free of cost",
+    "Free two-burner LPG stove (hotplate) and safety hose pipe"
+  ],
+  "eligibility": [
+    "Applicant must be an adult woman aged 18 years or above",
+    "No existing LPG connection in the same household / family ration card",
+    "Belongs to eligible poor household: SC/ST, PMAY (Gramin), Antyodaya Anna Yojana (AAY), Most Backward Classes (MBC), Tea tribes, Forest Dwellers, River Islands, or 14-point declaration poor household",
+    "Active bank account linked with Aadhaar for Direct Benefit Transfer (DBT)"
+  ],
+  "documents": [
+    "Aadhaar Card of the woman applicant (Proof of Identity and Address)",
+    "Ration Card or Family Composition declaration (Annexure-I for migrant families)",
+    "Aadhaar cards of adult family members listed on the ration card",
+    "Bank Account details (Passbook copy with Account Number and IFSC code)",
+    "1 passport size photograph of the applicant"
+  ],
+  "steps": [
+    "Prepare photocopies of Aadhaar, Ration Card, Bank Passbook, and 1 photo",
+    "Visit the nearest LPG distributor (Indane, Bharatgas, HP Gas) or Common Service Centre (CSC)",
+    "Collect and submit the free Ujjwala 2.0 application form (no fees)",
+    "Distributor verifies documents and confirms no duplicate connection exists",
+    "Collect your free LPG cylinder, stove, regulator, and blue consumer card"
+  ],
+  "helpline": {
+    "primary": "1800-266-6696",
+    "secondary": "1800-233-3555",
+    "emergency_gas_leak": "1906",
+    "hours": "24x7 Toll-Free"
+  },
+  "human_helpers": [
+    "Nearest authorized LPG distributor (Indane / Bharatgas / HP Gas)",
+    "Common Service Centre (CSC) Village Level Entrepreneur (VLE)",
+    "Local Gram Panchayat / Anganwadi worker"
+  ],
+  "suggested_followups": {
+    "te": "మీకు ఏ పత్రాలు కావాలో చెప్పమంటారా? బటన్ పట్టుకుని అవును అని చెప్పండి.",
+    "hi": "क्या मैं बताऊँ कि कौन से कागजात चाहिए? बटन दबाकर हाँ बोलें.",
+    "ta": "தேவையான ஆவணங்களைப் பற்றி சொல்லட்டுமா? பொத்தானை அழுத்தி ஆம் என்று சொல்லுங்கள்.",
+    "kn": "ಯಾವ ದಾಖಲೆಗಳು ಬೇಕು ಎಂದು ಹೇಳಲೇ? ಬಟನ್ ಒತ್ತಿ ಹೌದು ಎಂದು ಹೇಳಿ.",
+    "ml": "ആവശ്യമായ രേഖകൾ എന്തൊക്കെയാണെന്ന് പറയണോ? ബട്ടൺ അമർത്തി അതെ എന്ന് പറയൂ.",
+    "bn": "কি কি কাগজ লাগবে বলব? বোতাম চেপে হ্যাঁ বলুন।",
+    "mr": "कोणती कागदपत्रे लागतील ते सांगू का? बटण दाबून हो म्हणा.",
+    "en": "Shall I tell you what documents you need? Hold and say yes."
+  }
+}

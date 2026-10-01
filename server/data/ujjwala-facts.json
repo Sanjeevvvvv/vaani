@@ -1,0 +1,165 @@
+{
+  "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY / Ujjwala 2.0)",
+  "tagline": "Swachh Indhan, Behtar Jeevan",
+  "ministry": "Ministry of Petroleum and Natural Gas (MoPNG), Government of India",
+  "official_url": "https://www.pmuy.gov.in",
+  "source_url": "https://www.pmuy.gov.in/ujjwala2.html",
+  "last_checked": "2026-03-30",
+  "verify_needed": false,
+  "summary": "PM Ujjwala Yojana 2.0 provides deposit-free LPG gas connections to adult women from economically weaker and poor households across India. The scheme provides a free connection deposit waiver, free first LPG cylinder refill, and a free two-burner gas stove (hotplate). No application fee or fee to any middleman is required.",
+  "benefits": [
+    {
+      "id": "deposit_waiver",
+      "title": "Deposit-free LPG Connection",
+      "description": "Security deposit for the cylinder (Rs. 1600 for 14.2kg or Rs. 1150 for 5kg) and pressure regulator is waived by the Central Government."
+    },
+    {
+      "id": "free_refill",
+      "title": "Free First LPG Refill",
+      "description": "The first LPG gas cylinder refill is provided completely free of cost to the beneficiary."
+    },
+    {
+      "id": "free_stove",
+      "title": "Free Gas Stove (Hotplate)",
+      "description": "A standard dual-burner LPG stove (hotplate) is provided free of cost along with the connection."
+    },
+    {
+      "id": "safety_kit",
+      "title": "Safety Hose & Domestic Gas Consumer Card",
+      "description": "Suraksha rubber hose pipe, inspection, and DGCC booklet are included free."
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "id": "adult_woman",
+      "rule": "The applicant must be a woman who has attained the age of 18 years.",
+      "mandatory": true
+    },
+    {
+      "id": "no_existing_connection",
+      "rule": "There must not be any existing LPG connection in the same household / family ration card.",
+      "mandatory": true
+    },
+    {
+      "id": "poor_household_category",
+      "rule": "The woman must belong to an eligible poor household under: SC/ST households, Pradhan Mantri Awas Yojana (Gramin), Most Backward Classes (MBC), Antyodaya Anna Yojana (AAY), Tea and Ex-Tea Garden tribes, Forest Dwellers, River Island inhabitants, or a SECC BPL list / 14-point declaration poor household.",
+      "mandatory": true
+    },
+    {
+      "id": "bank_account",
+      "rule": "The applicant must have an active personal bank account in a nationalized / commercial bank or Post Office with Aadhaar linkage for Direct Benefit Transfer (DBT).",
+      "mandatory": true
+    }
+  ],
+  "required_documents": [
+    {
+      "id": "aadhaar_applicant",
+      "name": "Aadhaar Card of Woman Applicant",
+      "purpose": "Proof of Identity and Proof of Address.",
+      "verify": false
+    },
+    {
+      "id": "ration_card",
+      "name": "State Government Ration Card / Family Composition Document",
+      "purpose": "Proof of family composition and household status. If migrant family without ration card, self-declaration in Annexure-I is accepted under Ujjwala 2.0.",
+      "verify": false
+    },
+    {
+      "id": "aadhaar_family",
+      "name": "Aadhaar of all adult family members",
+      "purpose": "Aadhaar numbers of adult family members appearing in the ration card or declaration.",
+      "verify": false
+    },
+    {
+      "id": "bank_passbook",
+      "name": "Bank Account Number & IFSC Code",
+      "purpose": "Bank passbook copy or statement for DBT subsidy transfer.",
+      "verify": false
+    },
+    {
+      "id": "photo",
+      "name": "Passport size photograph",
+      "purpose": "Recent photograph of the woman applicant for the consumer card.",
+      "verify": false
+    }
+  ],
+  "process_steps": [
+    {
+      "step": 1,
+      "title": "Prepare Documents",
+      "description": "Keep original and photocopies ready: woman applicant's Aadhaar, Ration Card, Bank Passbook, family members' Aadhaar, and 1 passport photo.",
+      "visual_icon": "badge"
+    },
+    {
+      "step": 2,
+      "title": "Visit Nearest LPG Distributor or CSC",
+      "description": "Go to the nearest LPG agency (Indane, Bharatgas, or HP Gas) or Common Service Centre (CSC) in your village or town.",
+      "visual_icon": "storefront"
+    },
+    {
+      "step": 3,
+      "title": "Submit PMUY Application Form",
+      "description": "Collect the free Ujjwala 2.0 application form. The distributor or CSC helper will assist in filling it. Attach photocopies of your documents. No payment is required.",
+      "visual_icon": "description"
+    },
+    {
+      "step": 4,
+      "title": "Document Verification & Field De-duplication",
+      "description": "The gas company verifies that no other connection exists in your household and registers your consumer number in the system.",
+      "visual_icon": "how_to_reg"
+    },
+    {
+      "step": 5,
+      "title": "Receive Free Cylinder & Stove",
+      "description": "Once approved, collect your free gas connection, filled LPG cylinder, double-burner gas stove, regulator, and safety booklet from the distributor.",
+      "visual_icon": "local_fire_department"
+    }
+  ],
+  "helplines": [
+    {
+      "label": "PMUY Toll-Free Helpline",
+      "number": "1800-266-6696",
+      "tel": "18002666696",
+      "hours": "24x7",
+      "description": "National toll-free customer support for Ujjwala scheme queries and assistance."
+    },
+    {
+      "label": "MoPNG National Helpline",
+      "number": "1800-233-3555",
+      "tel": "18002333555",
+      "hours": "All working days",
+      "description": "Ministry of Petroleum and Natural Gas citizen grievance & support line."
+    },
+    {
+      "label": "Emergency Gas Leak Helpline",
+      "number": "1906",
+      "tel": "1906",
+      "hours": "24x7 Emergency",
+      "description": "Emergency number across all LPG distributors in case of gas leakage."
+    }
+  ],
+  "safety_warnings": [
+    "PM Ujjwala Yojana is 100% free of charge. Do NOT pay any money, commission, or bribe to anyone.",
+    "Never share OTPs, PINs, passwords, or ATM card numbers with anyone.",
+    "Always receive a genuine Domestic Gas Consumer Card (blue/yellow book) and official receipt from authorized Indane, Bharatgas, or HP Gas distributors only.",
+    "Vaani does not collect personal data and never submits applications on your behalf. Always verify and apply at authorized distributors or pmuy.gov.in."
+  ],
+  "supported_distributors": [
+    {
+      "name": "Indane (Indian Oil)",
+      "url": "https://cx.indianoil.in"
+    },
+    {
+      "name": "Bharatgas (BPCL)",
+      "url": "https://my.ebharatgas.com"
+    },
+    {
+      "name": "HP Gas (HPCL)",
+      "url": "https://myhpgas.in"
+    },
+    {
+      "name": "Common Service Centres (CSC)",
+      "url": "https://locator.csccloud.in"
+    }
+  ]
+}

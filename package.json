@@ -1,0 +1,22 @@
+{
+  "name": "vaani",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vaani - Government services, in her language.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "npm --prefix client run build",
+    "build:server": "npm --prefix server run build",
+    "lint": "npm --prefix server run lint && npm --prefix client run lint",
+    "test": "npm --prefix server run test && npm --prefix client run test",
+    "test:server": "npm --prefix server run test",
+    "test:client": "npm --prefix client run test",
+    "start": "node server/dist/index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "scheme_id": "pmmvvy",
+  "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY 2.0 / Mission Shakti)",
+  "tagline": "Matritva Poshan, Swastha Bachpan",
+  "ministry": "Ministry of Women and Child Development, Government of India",
+  "description": "Pradhan Mantri Matru Vandana Yojana is a maternity benefit program providing conditional cash incentives via Direct Benefit Transfer (DBT) directly into the bank accounts of pregnant women and lactating mothers for health, nutrition, and partial wage compensation.",
+  "official_url": "https://pmmvy.wcd.gov.in",
+  "source_url": "https://wcd.nic.in/schemes/pradhan-mantri-matru-vandana-yojana",
+  "last_checked": "2026-03-30",
+  "verify": false,
+  "benefits": [
+    "First Live Child: Rs. 5,000 cash incentive in two installments (Rs. 3,000 upon early pregnancy registration and at least 1 ANC checkup; Rs. 2,000 after child birth registration and completion of first cycle of immunizations)",
+    "Second Child (if Girl Child): Rs. 6,000 cash incentive in a single installment after birth registration and immunizations under Mission Shakti to discourage female foeticide and promote girl child education and nutrition"
+  ],
+  "eligibility": [
+    "Pregnant Women and Lactating Mothers (PW&LM) who are Indian citizens aged 19 years and above",
+    "Belonging to socially and economically disadvantaged categories (SC/ST, BPL/EWS, PMAY beneficiaries, PMJAY e-card holders, MGNREGA job card holders, pregnant Divyangjan)",
+    "Women in regular employment with Central or State Government or Public Sector Undertakings (PSUs) or those receiving similar maternity benefits under any law are excluded"
+  ],
+  "documents": [
+    "Mother-Child Protection (MCP) Card registered at Anganwadi Centre / primary health clinic",
+    "Aadhaar Card of the pregnant woman applicant",
+    "Aadhaar Card of the husband / spouse",
+    "Applicant's personal Bank / Post Office account passbook linked to Aadhaar (DBT enabled)",
+    "Child Birth Certificate and Immunization Record (for 2nd installment)"
+  ],
+  "steps": [
+    "Register pregnancy at the local Anganwadi Centre (AWC) or approved government health facility within 570 days of LMP",
+    "Fill out PMMVY Application Form 1A with assistance from the Anganwadi Worker (AWW) or ASHA worker",
+    "Provide Aadhaar, MCP Card, and personal Aadhaar-linked bank details",
+    "Receive first installment (Rs. 3,000) directly into bank account via DBT",
+    "Register child's birth and complete primary vaccinations (BCG, OPV, DPT, Hepatitis B) to receive second installment"
+  ],
+  "helpline": {
+    "primary": "14408",
+    "secondary": "011-23382393",
+    "women_helpline": "181",
+    "childline": "1098",
+    "hours": "All Working Days / 24x7 for 181"
+  },
+  "human_helpers": [
+    "Anganwadi Worker (AWW) at your village or ward Anganwadi Centre",
+    "ASHA (Accredited Social Health Activist) healthcare worker",
+    "Auxiliary Nurse Midwife (ANM) at Primary Health Centre (PHC)"
+  ],
+  "suggested_followups": {
+    "te": "డబ్బులు ఏ విధంగా బ్యాంక్ ఖాతాలో జమ అవుతాయో చెప్పమంటారా? బటన్ పట్టుకుని అవును అని చెప్పండి.",
+    "hi": "क्या मैं बताऊँ कि सहायता राशि बैंक में कैसे मिलेगी? बटन दबाकर हाँ बोलें.",
+    "ta": "பணம் எப்படி வங்கிக் கணக்கில் வரும் என்று சொல்லட்டுமா? பொத்தானை அழுத்தி ஆம் என்று சொல்லுங்கள்.",
+    "kn": "ಹಣ ಬ್ಯಾಂಕ್ ಖಾತೆಗೆ ಹೇಗೆ ಬರುತ್ತದೆ ಎಂದು ಹೇಳಲೇ? ಬಟನ್ ಒತ್ತಿ ಹೌದು ಎಂದು ಹೇಳಿ.",
+    "ml": "പണം ബാങ്ക് അക്കൗണ്ടിലേക്ക് എങ്ങനെ വരുമെന്ന് പറയണോ? ബട്ടൺ അമർത്തി അതെ എന്ന് പറയൂ.",
+    "bn": "টাকা কিভাবে ব্যাংকে আসবে বলব? বোতাম চেপে হ্যাঁ বলুন।",
+    "mr": "पैसे बँकेत कसे मिळतील ते सांगू का? बटण दाबून हो म्हणा.",
+    "en": "Shall I tell you how the money will be transferred to your bank account? Hold and say yes."
+  }
+}
